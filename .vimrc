@@ -10,10 +10,13 @@ set showmatch
 syntax enable
 set expandtab
 set shiftwidth=4
+set softtabstop=4
+set tabstop=4
 set smarttab
 set ai
 set si
-set cindent
+"set cindent
+set colorcolumn=80
 set wrap
 set history=4000
 set nobackup
