@@ -48,3 +48,17 @@ if has("gui_macvim")
     map <C-t> :CommandT<CR>
 endif
 
+map <C-t> :CommandT<CR>
+
+
+"powerline{
+" set guifont=PowerlineSymbols\ for\ Powerline
+ set nocompatible
+  set t_Co=256
+  "let g:Powerline_symbols = 'fancy'
+"}
+
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\
+\[HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set laststatus=2
+
