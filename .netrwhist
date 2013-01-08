@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/private/tmp/framerate'
 let g:netrw_dirhist_2='/Users/mini/Coffee/bin/ios/Coffee.xcodeproj/xcuserdata'
 let g:netrw_dirhist_3='/Users/mini/Coffee/bin/ios/Coffee.xcodeproj/xcuserdata/mini.xcuserdatad'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/Users/mini/Coffee/bin/ios/Coffee.xcodeproj/xcuserdata/mi
 let g:netrw_dirhist_5='/Users/mini/GitHub/cloudstore'
 let g:netrw_dirhist_6='/Users/mini/GitHub'
 let g:netrw_dirhist_7='/Users/mini/GitHub/cloudstore'
+let g:netrw_dirhist_8='/Users/weicongju/.vim'

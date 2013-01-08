@@ -63,4 +63,4 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\
 set laststatus=2
 
 set background=dark
-colorscheme solarized
+colorscheme grb256
