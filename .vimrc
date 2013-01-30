@@ -24,6 +24,9 @@ set nowb
 set noswapfile
 set hlsearch
 set history=1000
+
+map <C-k><C-b> :NERDTreeToggle<cr>
+
 " If gui are running
 if has("gui_running")
     colorscheme evening
@@ -50,6 +53,12 @@ if has("gui_macvim")
     map <C-t> :CommandT<CR>
 endif
 
+let os = substitute ( system ( 'uname' ), '\n', '', '' )
+if os == 'Darwin' || os == 'Mac'
+    "map <D-P> :CommandT<CR>
+elseif os == 'linux'
+    "map <A-T> :CommandT<CR>
+endif
 map <C-t> :CommandT<CR>
 
 
