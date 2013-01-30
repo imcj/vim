@@ -23,6 +23,7 @@ set nobackup
 set nowb
 set noswapfile
 set hlsearch
+set history=1000
 " If gui are running
 if has("gui_running")
     colorscheme evening
