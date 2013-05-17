@@ -1,6 +1,6 @@
 autocmd! bufwritepost .vimrc source %
 
-" Pathogen plugin
+" Pathogen plugin conflict not allow
 call pathogen#runtime_append_all_bundles()
 
 set nocompatible
