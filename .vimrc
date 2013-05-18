@@ -75,3 +75,13 @@ set laststatus=2
 
 set background=dark
 colorscheme grb256
+
+autocmd BufRead,BufNewFile *.json set filetype=json
+autocmd FileType coffee,javascript,json setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
+
+" Enable omni completion.
+autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType c setlocal omnifunc=ccomplete#Complete
