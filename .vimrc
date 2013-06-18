@@ -21,12 +21,17 @@ Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/snipmate-snippets'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Lokaltog/vim-easymotion'
-
+"Bundle 'plasticboy/vim-markdown'
+"Bundle 'tpope/vim-markdown'
+Bundle 'hallison/vim-markdown'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 
 Bundle 'vim-scripts/python.vim--Vasiliev'
 Bundle 'pythoncomplete'
+
+Bundle 'Conque-Shell'
+Bundle 'tpope/vim-fugitive'
 
 Bundle 'L9'
 Bundle 'FuzzyFinder'
