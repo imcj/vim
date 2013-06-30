@@ -36,6 +36,9 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 
+Bundle 'jdonaldson/vaxe'
+Bundle 'Lokaltog/vim-powerline'
+
 filetype plugin indent on
 
 " dot-vimrc
@@ -286,7 +289,7 @@ let tlist_make_settings  = 'make;m:makros;t:targets'
 
 " set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\[HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 " set laststatus=2
-let g:Powerline_symbols='fancy'
+" let g:Powerline_symbols='fancy'
 " let g:Pwerline_cache_enable=1
 
 
@@ -309,11 +312,16 @@ map <C-p> :CommandT<CR>
 
 "powerline{
 " set guifont=PowerlineSymbols\ for\ Powerline
+set autowrite
 set nocompatible
 set t_Co=256
-  "let g:Powerline_symbols = 'fancy'
+" let g:Powerline_symbols = 'fancy'
 "}
 
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\
-\[HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set nocompatible
 set laststatus=2
+set encoding=utf-8
+set laststatus=2
+let g:Powerline_colorscheme = 'solarized256'
